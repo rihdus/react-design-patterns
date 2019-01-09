@@ -1,0 +1,15 @@
+{
+  "name": "react-primitives",
+  "version": "1.0.0",
+  "description": "Tools that implement core UI behaviour",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.10.1"
+  }
+}
