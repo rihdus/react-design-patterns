@@ -1,0 +1,19 @@
+{
+  "name": "selection",
+  "version": "0.0.0",
+  "description": "Select any nunmber of items from a list of items",
+  "author": "Rihdus <rihdus.io@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/selection.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
