@@ -10,8 +10,7 @@ function loadStories() {
 
 addDecorator(
   withOptions({
-    name: 'React Primitives',
-    theme: themes.normal,
+    name: 'React Primitives'
   })
 );
 
