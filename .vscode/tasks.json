@@ -11,7 +11,12 @@
       {
          "type": "npm",
          "script": "start",
-         "problemMatcher": []
+         "problemMatcher": [],
+         "options": {
+            "shell": {
+               "executable": "C:\\Windows\\System32\\bash.exe"
+            }
+         }
       }
    ]
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 import { storiesOf } from '@storybook/react'
-import { withReadme } from 'storybook-readme'
 import { SelectionContainer } from '.'
 import SelectionComponent from './SelectionComponent'
 import SelectionContainerReadme from './SelectionContainer.md'
@@ -10,12 +9,18 @@ import SelectionComponentReadme from './SelectionComponent.md'
 storiesOf('Selection', module)
   .add(
     'SelectionContainer',
-    withReadme(SelectionContainerReadme, () => <TabSelector />)
-  )
+    () => <TabSelector />, {
+      readme: {
+        sidebar: SelectionContainerReadme
+      }
+    })
   .add(
     'SelectionComponent',
-    withReadme(SelectionComponentReadme, () => <ButtonSelector />)
-  )
+    () => <ButtonSelector />, {
+      readme: {
+        sidebar: SelectionComponentReadme
+      }
+    })
 
 function TabSelector() {
   return (

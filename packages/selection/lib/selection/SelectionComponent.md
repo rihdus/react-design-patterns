@@ -1,5 +1,3 @@
-# SelectionComponent
-
 ```js
 class SelectorComponentSample extends SelectionComponent {
   render() {

@@ -1,9 +1,6 @@
-# SelectionContainer
+__RenderProp Container implementing the SelectionApi__
 
-RenderPropContainer implementing the SelectionApi
-
-SelectionApi:
-
+`SelectionApi`
 - `selectedKey` {any} Currently selected key.
 - `getItemProps` {function} get selection api for item in the list
   - `onClick` {function}

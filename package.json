@@ -17,7 +17,7 @@
     "@storybook/components": "^5.0.10",
     "@storybook/react": "^5.0.10",
     "lerna": "3.10.1",
-    "storybook-readme": "^4.0.5"
+    "storybook-readme": "^5.0.3"
   },
   "dependencies": {
     "babel-loader": "^8.0.5",
