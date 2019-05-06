@@ -16,11 +16,12 @@
     "@storybook/addon-options": "^5.0.10",
     "@storybook/components": "^5.0.10",
     "@storybook/react": "^5.0.10",
-    "lerna": "3.10.1",
+    "prettier": "^1.17.0",
     "storybook-readme": "^5.0.3"
   },
   "dependencies": {
     "babel-loader": "^8.0.5",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.2.0"

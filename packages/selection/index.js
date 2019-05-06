@@ -1,2 +1,2 @@
-export { default as SelectionContainer } from './SelectionRenderProp';
-export { default as SelectionComponent } from './SelectionComponent';
+export { default as SelectionContainer } from './render_prop_pattern';
+export { default as SelectionComponent } from './custom_react_component';
