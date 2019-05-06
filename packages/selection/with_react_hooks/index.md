@@ -1,4 +1,5 @@
 `SelectionApi`
+
 - `selectedItem` {any} Currently selected item.
 - `getItemProps` {function} get selection props for item in the list
   - `onClick` {function}
@@ -6,7 +7,6 @@
 
 ```js
 const App = () => {
-
   const [selectedItem, getItemProps] = useSelection(0)
 
   return (
@@ -26,7 +26,8 @@ const App = () => {
 }
 ```
 
-__Selection hook implementation__
+**Selection hook implementation**
+
 ```js
 const useSelection = initialSelectedItem => {
   const [selectedItem, selectItem] = useState(initialSelectedItem)
